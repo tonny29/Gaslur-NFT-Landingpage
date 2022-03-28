@@ -2,17 +2,64 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: white;
+    
+    padding-top: 30px;
+
+}
+.nav-text p{
+    font-weight: 700;
+font-size: 32px;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+background: linear-gradient(93.51deg, #9B51E0 2.84%, #3081ED 99.18%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
 
 }
 .link-style a{
+    position: relative;
     text-decoration: none;
     margin-right: 32px;
-    color: white;
+    color: #BCBCBC;;
+    font-weight: 500;
+font-size: 12px;
+line-height: 22px;
     
+}
+.link-style a:hover{
+    background: linear-gradient(93.51deg, #9B51E0 2.84%, #3081ED 99.18%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.link-style a:hover::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(93.51deg, #9B51E0 2.84%, #3081ED 99.18%);
+    top: 25px;
+    left: -0px;
+
 }
 .sing-in{
     display: flex;
-    
-   
+    align-items: flex-start;
+    font-weight: 500;
+font-size: 12px;
+line-height: 22px; 
+}
+.sing-in button{
+    width: 126px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #1F1D2B;
+    border: 1px solid #D7D7D7;
+    color: #D7D7D7;
+}
+.sing-in p{
+    margin-left: 32px;
+    margin-top: 7px;
+
 }

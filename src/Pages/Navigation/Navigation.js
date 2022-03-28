@@ -3,7 +3,7 @@ import './Navigation.css';
 const Navigation = () => {
     return (
         <div className='nav-style' lg={4}>
-            <div>
+            <div className='nav-text'>
                 <p>GASLUR</p>
             </div>
             <div className='link-style'>

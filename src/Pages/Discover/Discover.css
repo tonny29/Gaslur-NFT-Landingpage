@@ -1,5 +1,25 @@
 .discover-part{
     margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px 0px 80px;
+}
+.discover-nav-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.discover-nav-item p{
+    margin-left: 40px;
+}
+.discover-nav-item button{
+    margin-left: 40px;
+    height: 48px;
+    width: 167px;
+    background: linear-gradient(93.51deg, #9B51E0 2.84%, #3081ED 99.18%);
+    border-radius: 10px;
+    border: 0px;
+    color: white;
 }
 
 .card-second-group{
@@ -8,4 +28,21 @@
 
 .thrid-card-group{
     margin-top: 83px;
+}
+.load-more-button{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+.load-more-button button{
+    width: 161px;
+    height: 45px;
+    border: 1px solid #D7D7D7;
+    border-radius: 10px;
+    background-color:  #1F1D2B;
+    color: #BCBCBC;
 }

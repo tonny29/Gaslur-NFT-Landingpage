@@ -7,13 +7,22 @@ import imageTen from '../../image/ten.png';
 import imageEleven from '../../image/eleven.png';
 import imageTwelve from '../../image/twelve.png';
 import imageThirteen from '../../image/thriteen.png';
+import category from '../../image/Icon.png';
+import dropdown from '../../image/dropdown.png';
+import filter from '../../image/Iconthree.png';
 import './Discover.css';
 
 const Discover = () => {
     return (
         <div>
             <div className='discover-part'>
-                <h1>Discover</h1>
+                <div><h1>Discover</h1></div>
+                <div className='discover-nav-item'>
+                    <p><img src={category} alt=""/> {' '}Category</p>
+                    <p>Cheapest{' '}<img src={dropdown} alt="" /></p>
+                    <p>Newest{' '}<img src={dropdown} alt="" /></p>
+                    <button><img src={filter} alt="" />{' '}Filter</button>
+                </div>
             </div>
             <div class="card-group card-second-group">
                 <div class="card">
@@ -106,6 +115,10 @@ const Discover = () => {
                         <button>Bid</button>
                     </div>
                 </div>
+            </div>
+
+            <div className='load-more-button'>
+                <button>LOAD MORE</button>
             </div>
         </div>
     );

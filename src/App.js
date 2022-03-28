@@ -4,6 +4,7 @@ import Navigation from './Pages/Navigation/Navigation';
 import Auctions from './Pages/Hot auctions/Auctions';
 import Discover from './Pages/Discover/Discover';
 import Getstarted from './Pages/GetStarted/Getstarted';
+import Footer from './Pages/Footer/Footer';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Auctions></Auctions>
       <Getstarted></Getstarted>
       <Discover></Discover>
+      <Footer></Footer>
     </div>
   );
 }

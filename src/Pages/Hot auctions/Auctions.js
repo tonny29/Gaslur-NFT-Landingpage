@@ -3,6 +3,7 @@ import imageTwo from '../../image/two.png';
 import imageThree from '../../image/three.png';
 import imageFour from '../../image/four.png';
 import imageFive from '../../image/five.png';
+import arrow from '../../image/arrow.png';
 import './Auctions.css';
 
 const auctions = () => {
@@ -10,10 +11,10 @@ const auctions = () => {
         <div>
             <div className='auctions'>
                 <h1>HOT AUCTIONS</h1>
-                <p>View all</p>
+                <p>View all <img src={arrow} alt="" /> </p>
             </div>
 
-            <div class="card-group">
+            <div class="card-group  card-frist-group">
                 <div class="card">
                     <img src={imageTwo} class="card-img-top" alt="..." />
                     <div class="card-body">
