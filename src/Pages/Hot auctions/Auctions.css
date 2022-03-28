@@ -1,0 +1,28 @@
+.auctions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    margin-top: 172px;
+}
+.card-group{
+    width: 1300px;
+    margin-left: 55px;
+}
+.card{
+    background-color:  #1F1D2B; 
+    width: 298px;
+    border: 0px;
+    
+}
+.card-body{
+    width: 298px;
+}
+.card img{
+    height: 313px;
+    width: 298px;
+}
+.card-footer{
+    border-color: white;
+    width: 297px;
+}

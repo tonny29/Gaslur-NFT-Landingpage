@@ -1,0 +1,18 @@
+.nav-style{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+.link-style a{
+    text-decoration: none;
+    margin-right: 32px;
+    color: white;
+    
+}
+.sing-in{
+    display: flex;
+    
+   
+}
