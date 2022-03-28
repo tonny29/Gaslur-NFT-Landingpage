@@ -21,7 +21,7 @@ const auctions = () => {
                         <h5>1.20 Weth</h5>
                     </div>
                     <div class="card-footer">
-                        <small>Ends in 01.34.45</small>
+                        <small> <span style={{color:"#BCBCBC"}}>Ends in</span> 01.34.45</small>
                         <button>Bid</button>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const auctions = () => {
                         <h5>0.21 Weth</h5>
                     </div>
                     <div class="card-footer">
-                        <small>Ends in 01.34.45</small>
+                        <small><span style={{color:"#BCBCBC"}}>Ends in</span> 01.34.45</small>
                         <button>Bid</button>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ const auctions = () => {
                         <h5>0.01 Weth</h5>
                     </div>
                     <div class="card-footer">
-                        <small>Ends in 56.44.45</small>
+                        <small><span style={{color:"#BCBCBC"}}>Ends in </span>56.44.45</small>
                         <button>Bid</button>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ const auctions = () => {
                         <h5>0.55 Weth</h5>
                     </div>
                     <div class="card-footer">
-                       <small>Ends in 01.34.45</small>
+                       <small><span style={{color:"#BCBCBC"}}>Ends in</span> 01.34.45</small>
                        <button>Bid</button>
                     </div>
                 </div>

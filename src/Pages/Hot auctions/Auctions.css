@@ -16,7 +16,16 @@
     
 }
 .card-body{
-    width: 298px;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 29px 16px 5px;
+    /* width: 298px; */
+    
+}
+.card-body h5{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
 }
 .card img{
     height: 313px;
@@ -25,4 +34,20 @@
 .card-footer{
     border-color: white;
     width: 297px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-footer{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.card-footer button{
+    height: 29px;
+    width: 73px;
+    border: 1px solid #E2E2E2;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #1F1D2B;;
+    color: white;
 }
